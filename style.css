@@ -39,10 +39,49 @@ color: #596D48
 
 .left {
     background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
+    background-color: #596D48;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     width: 35vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.left span {
+    align-self: center;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.left span,
+.left a:link {
+    color: white;
+}
+
+.left a:visited {
+    color: grey;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: max(16vh, 100px);
+    position: relative;
+    bottom: 60%;
+}
+
+.logo span {
+    color: white;
+    font-family: 'norsebold', sans-serif;
+    font-size: max(8vh, 60px);
+}
+
+.logo img {
+    height: 80%;
 }
