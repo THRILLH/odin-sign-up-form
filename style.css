@@ -36,3 +36,13 @@ color: #596D48
     color: blue;
     box-shadow: /* should be subtle */
 }
+
+.left {
+    background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 35vw;
+    height: 100vh;
+}
