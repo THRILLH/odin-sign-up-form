@@ -34,7 +34,11 @@ color: #596D48
 
 .border:focus {
     color: blue;
-    box-shadow: /* should be subtle */
+    box-shadow: ;/* should be subtle */
+}
+
+body {
+    display: flex;
 }
 
 .left {
@@ -84,4 +88,21 @@ color: #596D48
 
 .logo img {
     height: 80%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-top {
+    height: 40vh;
+}
+
+.right-mid {
+    height: 30vh;
+}
+
+.right-bottom {
+    height: 30vh;
 }
