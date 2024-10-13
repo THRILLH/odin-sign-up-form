@@ -6,3 +6,23 @@
     font-style: normal;
 
 }
+
+
+/* Color for button */
+.foo {
+color: #596D48
+}
+
+/* Colors for input border */
+.border {
+    color: #E5E7EB
+}
+
+.border-red {
+    color: red
+}
+
+.border:focus {
+    color: blue;
+    box-shadow: /* should be subtle */
+}
