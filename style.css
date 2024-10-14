@@ -18,10 +18,6 @@ input, button, textarea, select {
     font: inherit;
   }
 
-/* Color for button */
-.foo {
-color: #596D48
-}
 
 /* Colors for input border */
 .border {
@@ -121,4 +117,8 @@ body {
 .form-right {
     display: flex;
     flex-direction: column;
+}
+
+button {
+    background-color: #596D48;
 }
