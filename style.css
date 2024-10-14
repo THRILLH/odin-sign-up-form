@@ -101,8 +101,20 @@ body {
 
 .right-mid {
     height: 30vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .right-bottom {
     height: 30vh;
+}
+
+.form-container {
+    display: flex;
+}
+
+.form-left, 
+.form-right {
+    display: flex;
+    flex-direction: column;
 }
