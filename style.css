@@ -93,20 +93,24 @@ body {
 .right {
     display: flex;
     flex-direction: column;
+    width: 65vw;
 }
 
 .right-top {
     height: 40vh;
+    background-color: rgb(249, 250, 251);
 }
 
 .right-mid {
     height: 30vh;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
 }
 
 .right-bottom {
     height: 30vh;
+    background-color: rgb(249, 250, 251);
 }
 
 .form-container {
