@@ -154,6 +154,14 @@ label {
 
 input {
     margin-right: 80px;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+}
+
+input:focus {
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+    outline: none;
+    border: 1px solid rgb(0, 140, 255);
 }
 
 button {
