@@ -164,6 +164,13 @@ input:focus {
     border: 1px solid rgb(0, 140, 255);
 }
 
+/* Remove buttons from number input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 button {
     background-color: #596D48;
     color: white;
