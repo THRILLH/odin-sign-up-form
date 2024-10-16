@@ -146,8 +146,10 @@ margin-top: 15vh;
 }
 
 label {
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 0.8rem;
     margin-top: 18px;
+    color: #505153;
 }
 
 input {
@@ -163,4 +165,5 @@ button {
     margin: 30px 0;
     font-size: 1.1rem;
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+    cursor: pointer;
 }
